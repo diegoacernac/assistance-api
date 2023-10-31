@@ -14,10 +14,10 @@ import lombok.NoArgsConstructor;
 
 public class Area {
 
-	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id_area;
-	private String descripcion;
-	private int estado; 
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id_area;
+    private String descripcion;
+    private int estado;
 }

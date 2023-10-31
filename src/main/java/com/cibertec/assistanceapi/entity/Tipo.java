@@ -16,5 +16,4 @@ public class Tipo {
     private int id_tipo;
     private String descripcion;
     private int estado;
-
 }

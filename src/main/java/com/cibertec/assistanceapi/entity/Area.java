@@ -18,6 +18,6 @@ public class Area {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id_area;
-    private String descripcion;
-    private int estado;
+    private String description;
+    private int state;
 }

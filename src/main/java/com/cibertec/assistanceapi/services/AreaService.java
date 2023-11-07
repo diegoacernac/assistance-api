@@ -1,6 +1,6 @@
-package com.cibertec.assistanceapi.service;
+package com.cibertec.assistanceapi.services;
 
-import com.cibertec.assistanceapi.entity.Area;
+import com.cibertec.assistanceapi.entities.Area;
 
 import java.util.List;
 

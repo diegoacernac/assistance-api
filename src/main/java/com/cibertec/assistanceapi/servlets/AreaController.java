@@ -1,7 +1,7 @@
-package com.cibertec.assistanceapi.controller;
+package com.cibertec.assistanceapi.servlets;
 
-import com.cibertec.assistanceapi.entity.Area;
-import com.cibertec.assistanceapi.service.AreaService;
+import com.cibertec.assistanceapi.entities.Area;
+import com.cibertec.assistanceapi.services.AreaService;
 import com.cibertec.assistanceapi.util.AppSettings;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

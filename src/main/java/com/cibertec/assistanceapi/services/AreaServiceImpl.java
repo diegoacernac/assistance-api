@@ -10,12 +10,12 @@ import java.util.List;
 @Service
 public class AreaServiceImpl implements AreaService{
 
-    @Autowired
-    private AreaRepository Repository;
+	@Autowired
+	private AreaRepository Repository;
 
-    @Override
-    public List<Area> listaArea() {
-        return Repository.findAll();
+	@Override
+	public List<Area> listaArea() {
+		return Repository.findAll();
 
-    }
+	}
 }

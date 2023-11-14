@@ -4,11 +4,6 @@ import com.cibertec.assistanceapi.entities.Employee;
 
 import java.util.List;
 
-
-
-
-
-
 public interface EmployeeService {
 
 	public abstract List<Employee> listEmployees();
